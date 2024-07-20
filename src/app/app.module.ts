@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ClasesComponent } from './clases.component';
 import { CursosComponent } from './cursos/cursos.component';
+import { PropertyBindingComponent } from './property-binding.component';
 
 @NgModule({
   declarations: [
-    AppComponent, ClasesComponent, CursosComponent
+    AppComponent, ClasesComponent, CursosComponent, PropertyBindingComponent
   ],
   imports: [
     BrowserModule,
