@@ -12,4 +12,3 @@ export class EventBindingComponent {
     save(e){
         console.log(e)}
     }
-}
